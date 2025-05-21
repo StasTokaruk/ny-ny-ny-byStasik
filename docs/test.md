@@ -79,7 +79,7 @@
 ### *Read Expertise Categories*
 ![image](https://github.com/user-attachments/assets/748c34fa-a352-4b7d-9b1d-0486838f479c)
 
-### *Read User Expertise *
+### *Read User Expertise*
 ![image](https://github.com/user-attachments/assets/133bea42-7571-4a8b-b9cc-cab0c8c21ad8)
 
 ### *Read Quizzes*
