@@ -156,7 +156,112 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="Тестування-працездатності-системи"><a class="header" href="#Тестування-працездатності-системи">Тестування працездатності системи</a></h1>
-<p><em>В цьому розділі необхідно вказати засоби тестування, навести вихідні коди тестів та результати тестування.</em></p>
+<h2 id="post"><a class="header" href="#post">POST</a></h2>
+<h3 id="create-role"><a class="header" href="#create-role"><em>Create Role</em></a></h3>
+<pre><code class="language-bash">{
+  "name": "Stas",
+  "description": "Info1"
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/96a0499a-b76c-482c-873c-7b6050e61771" alt="image" /></p>
+<h3 id="create-user"><a class="header" href="#create-user"><em>Create User</em></a></h3>
+<pre><code class="language-bash">{
+  "email": "stastokaruk@gmail.com",
+  "password": "admin",
+  "name": "admin",
+  "surname": "Stanislav",
+  "nickname": "Tokariuk"
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/a3ac4746-5b1e-4731-b5ec-c1e6a6f7a629" alt="image" /></p>
+<h3 id="create-expertise-category"><a class="header" href="#create-expertise-category"><em>Create Expertise Category</em></a></h3>
+<pre><code class="language-bash">{
+  "name": "category1",
+  "description": "Info1"
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/9bdb6f28-00b5-4b5f-8d80-211a5581ca57" alt="image" /></p>
+<h3 id="create-user-expertise"><a class="header" href="#create-user-expertise"><em>Create User Expertise</em></a></h3>
+<pre><code class="language-bash">{
+  "User_id": 2,
+  "ExpertiseCategory_id": 1
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/3e868a13-7fff-4c3f-bef2-9775426050b5" alt="image" /></p>
+<h3 id="create-quiz"><a class="header" href="#create-quiz"><em>Create Quiz</em></a></h3>
+<pre><code class="language-bash">{
+  "name": "quiz1",
+  "description": "opys",
+  "User_id": 2
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/1cfd42c8-0018-4119-9a9a-0fbdb78598eb" alt="image" /></p>
+<h3 id="create-question"><a class="header" href="#create-question"><em>Create Question</em></a></h3>
+<pre><code class="language-bash">{
+  "Quiz_id": 1,
+  "number": 1,
+  "description": "question1",
+  "type": "easy"
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/96a0499a-b76c-482c-873c-7b6050e61771" alt="image" /></p>
+<h3 id="create-option"><a class="header" href="#create-option"><em>Create Option</em></a></h3>
+<pre><code class="language-bash">{
+  "Question_id": 1,
+  "number": 1,
+  "description": "info"
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/a067a046-d057-43c6-80ee-98a45c6a5793" alt="image" /></p>
+<h2 id="get"><a class="header" href="#get">GET</a></h2>
+<h3 id="read-roles"><a class="header" href="#read-roles"><em>Read Roles</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/3b3325a0-184d-4426-b225-257741df8d90" alt="image" /></p>
+<h3 id="read-users"><a class="header" href="#read-users"><em>Read Users</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/e10dc90f-4f64-4f73-9d56-5f6af812b052" alt="image" /></p>
+<h3 id="read-expertise-categories"><a class="header" href="#read-expertise-categories"><em>Read Expertise Categories</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/748c34fa-a352-4b7d-9b1d-0486838f479c" alt="image" /></p>
+<h3 id="read-user-expertise"><a class="header" href="#read-user-expertise"><em>Read User Expertise</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/133bea42-7571-4a8b-b9cc-cab0c8c21ad8" alt="image" /></p>
+<h3 id="read-quizzes"><a class="header" href="#read-quizzes"><em>Read Quizzes</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/76cfc368-2882-446f-81c4-298addbc23b7" alt="image" /></p>
+<h3 id="read-quizzes-by-user"><a class="header" href="#read-quizzes-by-user"><em>Read Quizzes By User</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/6b258f34-17ee-4801-9999-6279620cbdfb" alt="image" /></p>
+<h3 id="read-question"><a class="header" href="#read-question"><em>Read Question</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/6b2f182a-ecae-4514-95bb-ea2fa42fef8a" alt="image" /></p>
+<h2 id="put"><a class="header" href="#put">PUT</a></h2>
+<h3 id="update-expertise-category"><a class="header" href="#update-expertise-category"><em>Update Expertise Category</em></a></h3>
+<pre><code class="language-bash">{
+  "name": "category1v2",
+  "description": "info"
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/b8ea8c4f-a5ca-40d6-ba5f-7ec6b18cf61d" alt="image" /></p>
+<h3 id="update-quiz"><a class="header" href="#update-quiz"><em>Update Quiz</em></a></h3>
+<pre><code class="language-bash">{
+  "name": "Quiz1v2",
+  "description": "info",
+  "User_id": 2
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/0148799f-266b-471a-ab08-d5f50a4ada5d" alt="image" /></p>
+<h3 id="update-question"><a class="header" href="#update-question"><em>Update Question</em></a></h3>
+<pre><code class="language-bash">{
+  "Quiz_id": 1,
+  "number": 1,
+  "description": "info",
+  "type": "hard"
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/0f9e174a-a4b7-4553-8f7f-e986c34c96a5" alt="image" /></p>
+<h2 id="delete"><a class="header" href="#delete">DELETE</a></h2>
+<h3 id="delete-expertise-category"><a class="header" href="#delete-expertise-category"><em>Delete Expertise Category</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/99233cfa-e56c-4f85-948e-060225f66082" alt="image" /></p>
+<h3 id="delete-user-expertise"><a class="header" href="#delete-user-expertise"><em>Delete User Expertise</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/15773b8e-ec71-442b-9e54-8e367494af96" alt="image" /></p>
+<h3 id="delete-quiz"><a class="header" href="#delete-quiz"><em>Delete Quiz</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/2b279990-1536-403e-825c-57148d6ab2ea" alt="image" /></p>
+<h3 id="delete-question"><a class="header" href="#delete-question"><em>Delete Question</em></a></h3>
+<p><img src="https://github.com/user-attachments/assets/f43f082e-7284-4887-8ff2-cecf8a1fbba2" alt="image" /></p>
 
                     </main>
 
