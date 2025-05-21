@@ -114,7 +114,7 @@ CREATE TABLE `Option` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `Question_id` INT NOT NULL,
   `number` INT NULL,
-  `description` INT NULL,
+  `description` VARCHAR(255) NULL,
   PRIMARY KEY (`id`),
   INDEX `fk_Option_Question1_idx` (`Question_id` ASC),
   CONSTRAINT `fk_Option_Question1`
