@@ -1,7 +1,5 @@
 # Тестування працездатності системи
 
-*В цьому розділі необхідно вказати засоби тестування, навести вихідні коди тестів та результати тестування.*
-
 ## POST
 ### *Create Role*
 ```bash
@@ -72,5 +70,56 @@
 
 
 ## GET
+### *Read Roles*
+![image](https://github.com/user-attachments/assets/3b3325a0-184d-4426-b225-257741df8d90)
+
+### *Read Users*
+![image](https://github.com/user-attachments/assets/e10dc90f-4f64-4f73-9d56-5f6af812b052)
+
+### *Read Expertise Categories*
+![image](https://github.com/user-attachments/assets/748c34fa-a352-4b7d-9b1d-0486838f479c)
+
+### *Read User Expertise *
+![image](https://github.com/user-attachments/assets/133bea42-7571-4a8b-b9cc-cab0c8c21ad8)
+
+### *Read Quizzes*
+![image](https://github.com/user-attachments/assets/76cfc368-2882-446f-81c4-298addbc23b7)
+
+### *Read Quizzes By User*
+![image](https://github.com/user-attachments/assets/6b258f34-17ee-4801-9999-6279620cbdfb)
+
+### *Read Question*
+![image](https://github.com/user-attachments/assets/6b2f182a-ecae-4514-95bb-ea2fa42fef8a)
+
+## PUT
+### *Update Expertise Category*
+```bash
+{
+  "name": "category1v2",
+  "description": "info"
+}
+```
+![image](https://github.com/user-attachments/assets/b8ea8c4f-a5ca-40d6-ba5f-7ec6b18cf61d)
+
+### *Update Quiz*
+```bash
+{
+  "name": "Quiz1v2",
+  "description": "info",
+  "User_id": 2
+}
+```
+![image](https://github.com/user-attachments/assets/0148799f-266b-471a-ab08-d5f50a4ada5d)
+
+### *Update Question*
+```bash
+{
+  "Quiz_id": 1,
+  "number": 1,
+  "description": "info",
+  "type": "hard"
+}
+```
+![image](https://github.com/user-attachments/assets/0f9e174a-a4b7-4553-8f7f-e986c34c96a5)
 
 ## DELETE
