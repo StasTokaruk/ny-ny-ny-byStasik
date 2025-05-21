@@ -123,3 +123,15 @@
 ![image](https://github.com/user-attachments/assets/0f9e174a-a4b7-4553-8f7f-e986c34c96a5)
 
 ## DELETE
+### *Delete Expertise Category*
+![image](https://github.com/user-attachments/assets/99233cfa-e56c-4f85-948e-060225f66082)
+
+### *Delete User Expertise*
+![image](https://github.com/user-attachments/assets/15773b8e-ec71-442b-9e54-8e367494af96)
+
+### *Delete Quiz*
+![image](https://github.com/user-attachments/assets/2b279990-1536-403e-825c-57148d6ab2ea)
+
+### *Delete Question*
+![image](https://github.com/user-attachments/assets/f43f082e-7284-4887-8ff2-cecf8a1fbba2)
+
